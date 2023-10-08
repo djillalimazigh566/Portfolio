@@ -135,18 +135,18 @@
 
   
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
   .nav-bar {
     background: #181818;
     width: 100%;
-    height: 5%;
+    height: 6%;
     min-height: 10px;
 
   
     .logo {
     height: 100%;
     width: 10%;
-    margin-top: -3.1%;
+    margin-top: -2%;
   
       img {
         display: block;
@@ -169,7 +169,7 @@
       top: 100%;
       width: 100%;
       align-items: center;
-      margin-top: -10%;
+      margin-top: -9%;
   
       a {
         font-size: 22px;
