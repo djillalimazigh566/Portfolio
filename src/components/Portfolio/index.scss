@@ -117,6 +117,14 @@
 /* Responsive Styles */
 
 @media (max-width: 700px) {
+    .home-page2 h1 {
+        color: #fff;
+        font-size: 33px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        margin-top: 70%;
+    }
     .main-content {
         flex: 1 1 80%;
         min-height: 100vh;
