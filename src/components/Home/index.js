@@ -5,6 +5,7 @@ import LogoTitle from '../../assets/images/logo--m.jpg'
 import Logo from './Logo'
 import Loader from 'react-loaders'
 
+
 import './index.scss'
 import {
   faPython,
@@ -65,6 +66,8 @@ const Home = () => {
     <>
       <div className="container home-page">
         <div className="text-zone">
+      
+
           <h1>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
@@ -94,28 +97,7 @@ const Home = () => {
         </div>
        
 
-        <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faPython} color="#DD0031" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faCss3} color="#F06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faHtml5} color="#28A4D9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faGit} color="#EFD81D" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faUbuntu} color="#EC4D28" />
-            </div>
-        </div>
-        </div>
+        
         
       </div>
       <Loader type="line-scale" />

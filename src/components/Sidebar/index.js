@@ -10,7 +10,7 @@ const Sidebar = () =>(
 
         </Link>
         <nav>
-            <NavLink exact to="/home" className="nav-button">
+            <NavLink exact to="/" className="nav-button">
                 Home
             </NavLink>
             <NavLink exact to="/portfolio" className="nav-button about-link">

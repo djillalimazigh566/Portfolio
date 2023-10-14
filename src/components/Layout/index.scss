@@ -2,6 +2,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    background-color: black;
 }
 .top-tags{
     bottom: auto;
@@ -35,6 +36,8 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
+    
+    
 }
 .text-zone2 {
     position: absolute;
@@ -89,14 +92,13 @@
 
 
     .text-zone3 {
-        position: absolute;
-        left: -35%;
-        top:25%;
-        width: 50%;
-        vertical-align: middle;
-        display: table-cell;
-        max-height: 90%;
-        font-family: 'Coolvetica';
-        color: #ffd700;
+    border: 5px ;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    width: 90%;  
+    height: 45%;      
+        
       }
   }
