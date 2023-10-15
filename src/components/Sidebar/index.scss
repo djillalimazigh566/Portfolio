@@ -1,0 +1,55 @@
+.nav-bar {
+    background: #000;
+    width: 100%; /* Use full width of the page */
+    height: 70px; /* Set the height of the navigation bar */
+    position: fixed; /* Change to fixed position */
+    top: 0;
+    z-index: 3;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Vertically center items */
+    padding: 0 20px; /* Add padding */
+    font-family: 'Coolvetica';
+
+
+    .logo {
+        display: inline-block; /* Display the logo inline */
+        padding: 0; /* Remove padding */
+
+        img {
+            display: block;
+            margin: 8px auto;
+            width: 50px;
+            height: auto;
+
+            &.sub-logo {
+                width: 50px;
+            }
+        }
+    }
+
+    nav {
+        display: flex; /* Use flexbox for navigation items */
+        align-items: center; /* Vertically center items */
+
+        .nav-button {
+            font-size: 16px; /* Adjust font size as needed */
+            color: #4d4d4e;
+            text-decoration: none;
+            margin-left: 20px; /* Add space between items */
+
+            &:first-child {
+                margin-left: 0; /* Remove margin for the first item */
+            }
+
+            &:hover {
+                color: #ffd700;
+            }
+
+            &.active {
+                /* Add styles for the active link if needed */
+                color: #ffd700;
+            }
+        }
+    }
+}
